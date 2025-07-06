@@ -41,10 +41,11 @@
         features.
 
     .PARAMETER AllowPrerelease
-        Not yet written.
+        Allow you to install a module marked as a pre-release.
 
     .PARAMETER WithYAML
-        Not yet written.
+        Allow you to use BuildConfig file in a Yaml format.
+        PowerShell module PowerShell-Yaml will be installed and imported for that.
 
     .PARAMETER UseModuleFast
         Specifies to use ModuleFast instead of PowerShellGet to resolve dependencies
