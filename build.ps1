@@ -494,7 +494,7 @@ begin
         # If BuildConfig is a Yaml file, bootstrap powershell-yaml via ResolveDependency.
         if ($BuildConfig -match '\.[yaml|yml]$')
         {
-            $resolveDependencyParams.Add('WithYaml', $true)
+            $resolveDependencyParams.Add('WithYAML', $true)
         }
 
         $resolveDependencyAvailableParams = (Get-Command -Name '.\Resolve-Dependency.ps1').Parameters.Keys

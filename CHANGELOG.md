@@ -19,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - The use of Write-* cmdlets has been standardized to a consistent style with named parameters (-Message and -Object).
+- Added description to parameters where missing in Resolve-Dependency.ps1
+- Standardized usage of `With-YAML` parameter in build.ps1.
 
 ## [0.118.3] - 2025-04-29
 
